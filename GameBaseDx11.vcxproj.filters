@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01Engine">
+      <UniqueIdentifier>{e5fccdcb-f299-4448-bdb6-01fa28039576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01Engine\Collider">
+      <UniqueIdentifier>{7f19ecfb-5d70-4d31-a1f7-c9dd14bad324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01Engine\DirectX">
+      <UniqueIdentifier>{e56f8c9a-95a5-4ceb-b65f-5b8e572d087b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01Engine\GameObject">
+      <UniqueIdentifier>{b450e438-c939-4b05-b319-0e3c0b4a335c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01Engine\ResourceManager">
+      <UniqueIdentifier>{bedee914-5063-4c08-95bb-79c861b4969c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02Shader">
+      <UniqueIdentifier>{47a6a3f5-8cfd-436b-8d58-beccd108f3f3}</UniqueIdentifier>
+      <Extensions>hlsl</Extensions>
+    </Filter>
+    <Filter Include="SelectScene">
+      <UniqueIdentifier>{caab0cb7-6289-46fd-a9e7-33c21e4e6905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{da420a8d-9a6e-4f97-af89-a984c841958f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{55234cd7-ea4c-4b39-8945-ae5ba90844a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TitleScene">
+      <UniqueIdentifier>{71fcb781-3831-4bd9-835d-4c1d83080d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01Engine\Imgui">
+      <UniqueIdentifier>{8da53457-e57c-49f0-b8c0-edd887808a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01Engine\SaveManager">
+      <UniqueIdentifier>{1658cc38-a2cd-4e01-899b-eec0312d6e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01Engine\Json">
+      <UniqueIdentifier>{6938f99e-cfba-426a-a554-8584264090b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapEditor">
+      <UniqueIdentifier>{c53ab2f1-c236-4cd1-892b-45f9dc14e5e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapEditor\MapObject">
+      <UniqueIdentifier>{95241bf1-31c3-428c-ad89-e331a88fc9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\PlayerState">
+      <UniqueIdentifier>{0525c863-a407-4fe5-a63f-70a200b92fa7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\BoxCollider.cpp">
+      <Filter>01Engine\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Collider.cpp">
+      <Filter>01Engine\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SphereCollider.cpp">
+      <Filter>01Engine\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Direct3D.cpp">
+      <Filter>01Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Fbx.cpp">
+      <Filter>01Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FbxParts.cpp">
+      <Filter>01Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input.cpp">
+      <Filter>01Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sprite.cpp">
+      <Filter>01Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Camera.cpp">
+      <Filter>01Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObject.cpp">
+      <Filter>01Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\RootObject.cpp">
+      <Filter>01Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CsvReader.cpp">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Image.cpp">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Model.cpp">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Main.cpp">
+      <Filter>01Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManager.cpp">
+      <Filter>01Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Texture.cpp">
+      <Filter>01Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Transform.cpp">
+      <Filter>01Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio.cpp">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Text.cpp">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Debug.cpp">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\BillBoard.cpp">
+      <Filter>01Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\VFX.cpp">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Option.cpp" />
+    <ClCompile Include="MainGameScene.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectScene.cpp">
+      <Filter>SelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClearScene.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScene.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Imgui\imgui.cpp">
+      <Filter>01Engine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SaveManager\SaveManager.cpp">
+      <Filter>01Engine\SaveManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Button.cpp">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Timer.cpp">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\MapEditor\MapData.cpp">
+      <Filter>MapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\MapEditor\MapEditorScene.cpp">
+      <Filter>MapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\MapEditor\MapController.cpp">
+      <Filter>MapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFloor.cpp">
+      <Filter>MapEditor\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TestWall.cpp">
+      <Filter>MapEditor\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DevelopSelectScene.cpp" />
+    <ClCompile Include="Room1.cpp">
+      <Filter>MapEditor\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreScene.cpp" />
+    <ClCompile Include="Player.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="StageMap.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState\PlayerState.cpp">
+      <Filter>MainGame\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState\StateAnimation.cpp">
+      <Filter>MainGame\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState\StateAction.cpp">
+      <Filter>MainGame\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState\StateIdle.cpp">
+      <Filter>MainGame\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState\StateMove.cpp">
+      <Filter>MainGame\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Imgui\imgui_demo.cpp">
+      <Filter>01Engine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Imgui\imgui_draw.cpp">
+      <Filter>01Engine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Imgui\imgui_impl_dx11.cpp">
+      <Filter>01Engine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Imgui\imgui_impl_win32.cpp">
+      <Filter>01Engine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Imgui\imgui_widgets.cpp">
+      <Filter>01Engine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Imgui\imgui_tables.cpp">
+      <Filter>01Engine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="School.cpp">
+      <Filter>MapEditor\MapObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\BoxCollider.h">
+      <Filter>01Engine\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Collider.h">
+      <Filter>01Engine\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SphereCollider.h">
+      <Filter>01Engine\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Direct3D.h">
+      <Filter>01Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Fbx.h">
+      <Filter>01Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FbxParts.h">
+      <Filter>01Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>01Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sprite.h">
+      <Filter>01Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Camera.h">
+      <Filter>01Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObject.h">
+      <Filter>01Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\RootObject.h">
+      <Filter>01Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CsvReader.h">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Image.h">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Model.h">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Global.h">
+      <Filter>01Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManager.h">
+      <Filter>01Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Texture.h">
+      <Filter>01Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Transform.h">
+      <Filter>01Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio.h">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Text.h">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Debug.h">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\BillBoard.h">
+      <Filter>01Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\VFX.h">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h" />
+    <ClInclude Include="SelectScene.h">
+      <Filter>SelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClearScene.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScene.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Imgui\imgui.h">
+      <Filter>01Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SaveManager\SaveManager.h">
+      <Filter>01Engine\SaveManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\json-develop\include\nlohmann\json.hpp">
+      <Filter>01Engine\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Button.h">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Timer.h">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MapEditor\MapData.h">
+      <Filter>MapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MapEditor\MapEditorScene.h">
+      <Filter>MapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MapEditor\MapController.h">
+      <Filter>MapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="TestFloor.h">
+      <Filter>MapEditor\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TestWall.h">
+      <Filter>MapEditor\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopSelectScene.h" />
+    <ClInclude Include="Room1.h">
+      <Filter>MapEditor\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreScene.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="MainGameScene.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="StageMap.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState\PlayerState.h">
+      <Filter>MainGame\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState\StateAnimation.h">
+      <Filter>MainGame\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState\StateAction.h">
+      <Filter>MainGame\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState\StateIdle.h">
+      <Filter>MainGame\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState\StateMove.h">
+      <Filter>MainGame\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Imgui\imstb_truetype.h">
+      <Filter>01Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Imgui\imconfig.h">
+      <Filter>01Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Imgui\imgui_impl_dx11.h">
+      <Filter>01Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Imgui\imgui_impl_win32.h">
+      <Filter>01Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Imgui\imstb_rectpack.h">
+      <Filter>01Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Imgui\imstb_textedit.h">
+      <Filter>01Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Imgui\imgui_internal.h">
+      <Filter>01Engine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="School.h">
+      <Filter>MapEditor\MapObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Assets\Shader\Simple2D.hlsl">
+      <Filter>02Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shader\Simple3D.hlsl">
+      <Filter>02Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shader\Debug3D.hlsl">
+      <Filter>02Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shader\BillBoard.hlsl">
+      <Filter>02Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameBaseDx11.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine\Imgui\.editorconfig">
+      <Filter>01Engine\Imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
